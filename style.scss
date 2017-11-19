@@ -1,0 +1,36 @@
+$widthOfCanvas: 700px;
+$heightOfCanvas: 300px;
+
+body {
+  box-sizing: border-box;
+  font-size: 8px;
+}
+
+#canvas,.vertical-ruler,.horizontal-ruler {
+  border: 1px solid black;
+}
+
+.horizontal-ruler, #canvas {
+  width: $widthOfCanvas;
+}
+
+.vertical-ruler, #canvas{
+  height: $heightOfCanvas
+}
+
+.vertical-ruler {
+  width: 20px;
+  display: inline-block;
+  vertical-align: top;
+  div {
+
+  }
+}
+.horizontal-ruler {
+  height: 20px;
+  margin-left: 26px;
+  margin-bottom: 5px;
+  span {
+    text-align:right;
+  }
+}

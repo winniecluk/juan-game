@@ -1,0 +1,26 @@
+body {
+  box-sizing: border-box;
+  font-size: 8px; }
+
+#canvas, .vertical-ruler, .horizontal-ruler {
+  border: 1px solid black; }
+
+.horizontal-ruler, #canvas {
+  width: 700px; }
+
+.vertical-ruler, #canvas {
+  height: 300px; }
+
+.vertical-ruler {
+  width: 20px;
+  display: inline-block;
+  vertical-align: top; }
+
+.horizontal-ruler {
+  height: 20px;
+  margin-left: 26px;
+  margin-bottom: 5px; }
+  .horizontal-ruler span {
+    text-align: right; }
+
+/*# sourceMappingURL=style.css.map */
